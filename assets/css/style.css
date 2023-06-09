@@ -1,6 +1,8 @@
 /* DAM's "official" font is an Adobe font, Canvas Script Heavy. Check lisence and use temp fonts for now */
 
 
+@import url("https://use.typekit.net/evl4hrd.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +17,14 @@ body {
 
 h1,
 h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
+    font-family: "canvas-script", sans-serif;
+    font-weight: 500;
+    font-style: none;
+    color: black;
+}
+
+#logo {
+    font-size: 200%;
+    text-decoration: none;
+    text-align: center;
 }
