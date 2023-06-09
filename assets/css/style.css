@@ -31,9 +31,24 @@ h2 {
 
 /* Navigation Styling */
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
 
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    color: grey;
 }
