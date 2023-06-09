@@ -55,3 +55,28 @@ edit: 21% works better for some reason - look up why*/
 #menu a:hover {
     color: grey;
 }
+
+/* Hero image section */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: rgb(44, 87, 140)
+}
+
+/*image is NOT OPTIMISED, need smaller version*/
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(/images/temp-logo.png) no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
