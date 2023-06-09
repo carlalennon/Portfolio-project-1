@@ -27,20 +27,23 @@ h2 {
     font-size: 200%;
     text-decoration: none;
     text-align: center;
+    margin-top: 30px;
 }
 
 /* Navigation Styling */
 
 #menu {
     font-size: 110%;
-    letter-spacing: 3px;
-    font-weight: 400;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
+/*Reminder: this is 20% because: there are 3 element blocks with 2 "space" block on either end. 5/100=20%
+edit: 21% works better for some reason - look up why*/
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 20%;
+    margin-right: 21%;
     margin-top: 50px;
 }
 
