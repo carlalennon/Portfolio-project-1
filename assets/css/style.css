@@ -34,8 +34,7 @@ h1 {
 
 h2 {
     font-family: "canvas-script", sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
+    font-weight: 600;
 }
 
 #logo {
@@ -52,7 +51,7 @@ h2 {
     letter-spacing: 2px;
     font-weight: 600;
 }
- 
+
 /*Reminder: this is 20% because: there are 3 element blocks with 2 "space" block on either end. 5/100=20%
 edit: 21% works better for some reason - look up why*/
 #menu li {
@@ -80,26 +79,44 @@ edit: 21% works better for some reason - look up why*/
     position: relative;
 }
 
-#cover-text,
-#cover-text h2 {
-    color: red;
-    z-index: 1;
-
-}
-
-/*image is NOT OPTIMISED, need smaller version*/
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(/images/temp-logo.jpg) no-repeat center center;
     z-index: -1;
-    animation-name: hero-zoom;
+    /*animation-name: hero-zoom;
     animation-duration: 3s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;*/
 }
 
-/* zoom anim */
-@keyframes hero-zoom {
+#cover-text {
+    font-size: 190%;
+    font-family: "canvas-script", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+    width: 1200px;
+    height: 30vh;
+
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    padding-top: 40px;
+    padding-left: 10px;
+
+    animation-name: fade-in;
+    animation-duration: 2s;
+    /*for developement*/
+    border: 1px solid red;
+}
+
+#cover-text h2 {
+    color: black;
+}
+
+/* zoom anim sample */
+/*@keyframes hero-zoom {
     from {
         transform: scale(1.1);
     }
@@ -112,10 +129,10 @@ edit: 21% works better for some reason - look up why*/
 /* fade in animation */
 @keyframes fade-in {
     from {
-        opacity:0;
+        opacity: 0;
     }
 
     to {
-        opacity:101;
+        opacity: 101;
     }
 }
