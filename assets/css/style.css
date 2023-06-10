@@ -52,7 +52,7 @@ h2 {
     letter-spacing: 2px;
     font-weight: 600;
 }
-
+ 
 /*Reminder: this is 20% because: there are 3 element blocks with 2 "space" block on either end. 5/100=20%
 edit: 21% works better for some reason - look up why*/
 #menu li {
@@ -93,4 +93,29 @@ edit: 21% works better for some reason - look up why*/
     width: 100%;
     background: url(/images/temp-logo.jpg) no-repeat center center;
     z-index: -1;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* zoom anim */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/* fade in animation */
+@keyframes fade-in {
+    from {
+        opacity:0;
+    }
+
+    to {
+        opacity:101;
+    }
 }
