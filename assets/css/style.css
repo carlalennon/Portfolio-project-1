@@ -73,7 +73,7 @@ edit: 21% works better for some reason - look up why*/
 
 /* Hero image section */
 #hero-outer {
-    height: 600px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -84,6 +84,7 @@ edit: 21% works better for some reason - look up why*/
     width: 100%;
     background: url(/images/temp-logo.jpg) no-repeat center center;
     z-index: -1;
+    box-shadow: 5px 0px 30px 10px #000 inset;
     /*animation-name: hero-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;*/
@@ -97,12 +98,14 @@ edit: 21% works better for some reason - look up why*/
     text-align: center;
     vertical-align: middle;
     width: 1200px;
-    height: 30vh;
+    height: 80px;
+
+    text-shadow: 2px 2px 4px #000;
 
     position: absolute;
     left: 5%;
     top: 30%;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 10px;
 
     animation-name: fade-in;
@@ -112,7 +115,7 @@ edit: 21% works better for some reason - look up why*/
 }
 
 #cover-text h2 {
-    color: black;
+    color: white;
 }
 
 /* zoom anim sample */
