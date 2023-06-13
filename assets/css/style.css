@@ -44,7 +44,7 @@ h3 {
 }
 
 #logo {
-    font-size: 200%;
+    font-size: 250%;
     text-decoration: none;
     text-align: center;
     margin-top: 30px;
@@ -183,4 +183,8 @@ div.biography h3 {
 
 div.biography p {
     margin-top: 50px;
+}
+
+#about-people {
+    margin-top: 100px;
 }
