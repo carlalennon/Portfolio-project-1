@@ -139,3 +139,10 @@ edit: 21% works better for some reason - look up why*/
         opacity: 101;
     }
 }
+
+/* Biography Styling*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
