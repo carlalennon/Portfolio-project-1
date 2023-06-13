@@ -37,11 +37,21 @@ h2 {
     font-weight: 600;
 }
 
+h3 {
+    font-family: "canvas-script", sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+
 #logo {
     font-size: 200%;
     text-decoration: none;
     text-align: center;
     margin-top: 30px;
+}
+
+hr {
+    border: 1px dotted black;
 }
 
 /* Navigation Styling */
@@ -142,7 +152,35 @@ edit: 21% works better for some reason - look up why*/
 
 /* Biography Styling*/
 
+.section-header {
+    text-align: center;
+    font-size: xx-large;
+    color: #000;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.biography {
+    border: 1px solid red;
+    padding: 5%;
+
+}
+
+img {
+    width: 100%;
+}
+
+div.biography h3 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: xx-large;
+    color: #000;
+}
+
+div.biography p {
+    margin-top: 50px;
 }

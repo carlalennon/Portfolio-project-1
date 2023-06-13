@@ -1,3 +1,9 @@
+For Carla: devlog
+
+13-06 Bug: h2 not centered in wider views, font needs a change
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
