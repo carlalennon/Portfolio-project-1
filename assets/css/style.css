@@ -154,7 +154,7 @@ edit: 21% works better for some reason - look up why*/
 
 .section-header {
     text-align: center;
-    font-size: xx-large;
+    font-size: 300%;
     color: #000;
 }
 
@@ -162,6 +162,7 @@ edit: 21% works better for some reason - look up why*/
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
+    margin: 50px 0px;
 }
 
 .biography {
@@ -177,7 +178,7 @@ img {
 div.biography h3 {
     margin-top: 30px;
     text-align: center;
-    font-size: xx-large;
+    font-size: 200%;
     color: #000;
 }
 
@@ -187,4 +188,16 @@ div.biography p {
 
 #about-people {
     margin-top: 100px;
+}
+
+
+/* About Event Style*/
+
+#about-event {}
+
+#meetup-image {
+    width: 40vw;
+    height: auto;
+    float: left;
+    margin: 50px 30px;
 }
