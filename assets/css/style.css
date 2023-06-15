@@ -90,11 +90,11 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
 }
 
 #hero-image {
-    height: 600px;
-    width: 100%;
-    background: url(/images/temp-logo.jpg) no-repeat center center;
-    z-index: -1;
-    box-shadow: 5px 0px 30px 10px #000 inset;
+    height: 400px;
+    width:100%;
+    background: url(/images/cover-image-town.webp) no-repeat center center;
+    background-size: cover;
+    box-shadow: 5px 0px 30px 10px #008080 inset;
     /*animation-name: hero-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;*/
