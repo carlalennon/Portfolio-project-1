@@ -58,18 +58,19 @@ hr {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 600;
 }
 
 /*Reminder: this is 20% because: there are 3 element blocks with 2 "space" block on either end. 5/100=20%
-edit: 21% works better for some reason - look up why*/
+edit: 21% works better for some reason - look up why
+
+Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown for media query*/
 #menu li {
-    float: right;
+    float: ;
     list-style-type: none;
-    margin-right: 21%;
-    margin-top: 50px;
-    padding-bottom: 5vh;
+   padding:5%;
+   border:5%;
 }
 
 #menu a {
