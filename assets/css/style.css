@@ -134,6 +134,13 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
     text-align: center;
     font-size: 30px;
     border-radius: 30px;
+    transition: .5s;
+}
+
+.newsletter-button:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
 }
 
 /* zoom anim sample */
