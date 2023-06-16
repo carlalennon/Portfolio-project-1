@@ -256,9 +256,9 @@ footer {
 
 footer p {
     color: #fff;
-    font-size: xx-small;
-    text-align: center;
-    vertical-align: bottom;
+    font-size: small;
+    bottom: 0;
+    right: 0;
 }
 
 footer h2 {
