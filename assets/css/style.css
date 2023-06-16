@@ -96,16 +96,15 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
 
 /* Hero image section */
 #hero-outer {
-    border: 1px solid magenta;
-
-    height: 800px;
+    /* border: 1px solid magenta; */
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 800px;
+    height: 500px;
     width: 100%;
     background: url(/images/cover-image-town.webp) no-repeat center center;
     background-size: cover;
@@ -118,13 +117,18 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
 #cover-text {
     font-size: 190%;
     text-align: center;
-    width: 80%;
+    width: 60%;
     height: 80%;
 
     animation-name: fade-in;
     animation-duration: 2s;
-    /*for developement*/
-    border: 1px solid red;
+    /*for developement
+    border: 1px solid red;*/
+}
+
+#cover-text p {
+    padding: 10px;
+    margin-bottom: 5px;
 }
 
 .newsletter-button {
@@ -215,4 +219,11 @@ div.biography p {
     height: auto;
     float: left;
     margin: 50px 30px;
+}
+
+/* Footer Styling */
+
+footer {
+    height: 100px;
+    background-color: red;
 }
