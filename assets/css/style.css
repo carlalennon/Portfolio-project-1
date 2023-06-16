@@ -251,5 +251,30 @@ div.biography p {
 
 footer {
     height: 100px;
-    background-color: red;
+    background-color: #71b59c;
+}
+
+footer p {
+    color: #fff;
+    font-size: xx-small;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+footer h2 {
+    font-size: 500%;
+    color: white;
+    margin-left: 30px;
+    float: left;
+
+}
+
+#sm-links {
+    text-align: right;
+}
+
+#sm-links li {
+    padding: 10px;
+    display: inline-block;
+    font-size: x-large;
 }
