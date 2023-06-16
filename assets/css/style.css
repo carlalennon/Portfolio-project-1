@@ -185,7 +185,7 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
 
 
 .biography {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 5%;
 
 }
@@ -212,13 +212,39 @@ div.biography p {
 
 /* About Event Style*/
 
+.container-about-event {
+
+    height: 500px;
+    position: relative;
+    /* border: 3px solid peru; */
+    display: flex;
+
+
+}
+
 #about-event {}
 
+#about-event p {
+    width: 80%;
+    padding: 2%;
+    /* text-align: right;
+    margin: 5% 7%; */
+}
+
+#about-event br {
+    /* margin-top: 20px; */
+}
+
 #meetup-image {
-    width: 40vw;
+    height: 400px;
+    width: 600px;
+    float: left;
+    padding: 2%;
+
+    /* width: 50%;
     height: auto;
     float: left;
-    margin: 50px 30px;
+    margin: 50px 30px; */
 }
 
 /* Footer Styling */
