@@ -9,6 +9,10 @@
     border: 0;
 }
 
+header {
+    background-color: #71b59c;
+}
+
 #menu-styling {
     height: 5vh;
     width: 100%;
@@ -23,7 +27,7 @@ body {
 h1 {
     font-family: "canvas-script", sans-serif;
     font-weight: 500;
-    color: black;
+    color: white;
 }
 
 h2 {
@@ -42,11 +46,15 @@ h3 {
     font-size: 250%;
     text-decoration: none;
     text-align: center;
-    margin-top: 30px;
+
 }
 
 hr {
     border: 1px dotted black;
+}
+
+.active {
+    color: red;
 }
 
 /*General Centering container setup from w3schools*/
@@ -87,11 +95,11 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
 
 #menu a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #menu a:hover {
-    color: grey;
+    color: rgb(11, 45, 42);
 }
 
 /* Hero image section */
@@ -206,23 +214,22 @@ div.biography p {
 }
 
 #about-people {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 
 /* About Event Style*/
 
-.container-about-event {
-
-    height: 500px;
-    position: relative;
-    /* border: 3px solid peru; */
-    display: flex;
-
-
+.the-event {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
-#about-event {}
+
+#about-event {
+
+    margin: 0 2rem;
+}
 
 #about-event p {
     width: 80%;
@@ -231,8 +238,8 @@ div.biography p {
     margin: 5% 7%; */
 }
 
-#about-event br {
-    /* margin-top: 20px; */
+#about-event h2 {
+    text-align: justify;
 }
 
 #meetup-image {
