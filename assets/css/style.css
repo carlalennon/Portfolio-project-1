@@ -179,8 +179,12 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
 
 /* Biography Styling*/
 
-.flex-biography {
-    display: flex;
+.grid-biography {
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+
 
 }
 
@@ -286,4 +290,17 @@ footer h2 {
     display: inline-block;
     font-size: 250%;
     margin-bottom: 2px;
+}
+
+/* Bio page styling */
+
+#sm-links-bio li {
+    padding: 20px;
+    display: inline-block;
+    font-size: 250%;
+    margin-bottom: 2px;
+}
+
+#sm-links-bio {
+    text-align: center;
 }
