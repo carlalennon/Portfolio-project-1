@@ -304,3 +304,14 @@ footer h2 {
 #sm-links-bio {
     text-align: center;
 }
+
+/* Past Events styling*/
+
+.grid-container {
+    display: grid;
+    gap:10px;
+}
+
+.poster-grid {
+    display: inline-grid;
+}
