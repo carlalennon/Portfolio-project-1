@@ -307,11 +307,7 @@ footer h2 {
 
 /* Past Events styling*/
 
-.grid-container {
-    display: grid;
-    gap:10px;
-}
-
-.poster-grid {
-    display: inline-grid;
+.gallery-flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
