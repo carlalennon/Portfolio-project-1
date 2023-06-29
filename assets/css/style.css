@@ -62,7 +62,6 @@ hr {
 .container {
     height: 200px;
     position: relative;
-    border: 3px solid green;
 }
 
 .center {
@@ -84,10 +83,6 @@ hr {
     margin-top: 1rem;
 }
 
-/*Reminder: this is 20% because: there are 3 element blocks with 2 "space" block on either end. 5/100=20%
-edit: 21% works better for some reason - look up why
-
-Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown for media query*/
 #menu li {
     display: inline-block;
     margin: 0 3rem;
@@ -104,7 +99,6 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
 
 /* Hero image section */
 #hero-outer {
-    /* border: 1px solid magenta; */
     height: 500px;
     width: 100%;
     overflow: hidden;
@@ -117,9 +111,6 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
     background: url(/images/cover-image-town.webp) no-repeat center center;
     background-size: cover;
     box-shadow: 5px 0px 30px 10px #53758c inset;
-    /*animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;*/
 }
 
 #cover-text {
@@ -130,8 +121,6 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
 
     animation-name: fade-in;
     animation-duration: 2s;
-    /*for developement
-    border: 1px solid red;*/
 }
 
 #cover-text p {
@@ -197,9 +186,7 @@ Update 15/06: Never mind, I'm not sure about this. Might use flexbox + dropdown 
 
 
 .biography {
-    /* border: 1px solid red; */
     padding: 5%;
-
 }
 
 img {
@@ -298,4 +285,14 @@ footer h2 {
 .gallery-flex-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-flex-container img {
+    width: 30vw;
+}
+
+.gallery-flex-container img:hover {
+    opacity: 30%;
+    transition: .3s;
 }
