@@ -40,47 +40,13 @@
         </div>
     </header>
     <section>
-        <!----FORM ATTEMPT 1 
-      <form id=”contact” onsubmit=”return postToGoogle();”>
-            <!--- URL of form collector: form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScrguX1qiZLk0w_OTgL07JARflRT2i207YSVHSxzPzyBSHxhg/formResponse"-->
-        <!---First name: 135159330
-    Last name: 1471732406
-    Email: 956203155 
-            <input placeholder="First name" type="text" name="entry.135159330" data-name="Name" id="fname" required>
-            <input placeholder="Last name" type="text" name="entry.1471732406" data-name="Surname" id="lname" required>
-            <input placeholder="Email address" type="email" name="entry.956203155" data-name="Email" id="email"
-                required>
-            <input type="submit">
+        <h2>Subscribe to our newsletter!</h2>
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-            <script>
-                function postToGoogle() {
-                    var field1 = $("#Name").val();
-                    var field2 = $("#Surname").val();
-                    var field3 = $("#Email").val();
-
-                    $.ajax({
-                        url: "{https://docs.google.com/forms/u/0/d/e/1FAIpQLScrguX1qiZLk0w_OTgL07JARflRT2i207YSVHSxzPzyBSHxhg/formResponse}",
-
-                        //add your google form generated numbers below which are also the 'names' of your inputs     
-                        data: {
-                            "entry.135159330": field1,
-                            "entry.1471732406": field2,
-                            "entry.956203155": field3,
-                        },
-                        type: "POST",
-                        dataType: "xml",
-                        success: function (d) {
-                            $('#contact').trigger('reset');
-                        },
-                        error: function (x, y, z) {
-                            $('#contact').trigger('reset');
-                        }
-                    });
-                    return false;
-                }
-            </script> --->
+        <form method="POST"
+            action="https://script.google.com/macros/s/AKfycbx__pkEvROp7C9GW1bI5YoDOZ-l1dzCskN8oh8OVRhCHi5YaJ2n8yUDv6jti-jz8sOVbg/exec">
+            <input name="Email" type="email" placeholder="Email" required>
+            <input name="Name" type="text" placeholder="Name" required>
+            <button type="submit">I'm in!</button>
         </form>
     </section>
 

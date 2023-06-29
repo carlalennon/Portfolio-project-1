@@ -1,5 +1,7 @@
 For Carla: devlog
 
+Source for linking google form: https://medium.com/geekculture/link-your-html-form-to-a-spreadsheet-via-google-forms-9024f0611d82
+
 13-06 Bug: h2 not centered in wider views, font needs a change
 
 
