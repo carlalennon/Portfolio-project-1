@@ -226,36 +226,24 @@ div.biography p {
 
 .the-event {
     margin-top: 2rem;
-    margin-bottom: 1rem;
 }
 
 
 #about-event {
-
-    margin: 0 2rem;
+    text-align: center;
+    padding-bottom: 150px;
+    display: grid;
 }
 
 #about-event p {
-    width: 80%;
     padding: 2%;
-    /* text-align: right;
-    margin: 5% 7%; */
-}
-
-#about-event h2 {
-    text-align: justify;
+    text-align: center;
 }
 
 #meetup-image {
     height: 400px;
     width: 600px;
-    float: left;
     padding: 2%;
-
-    /* width: 50%;
-    height: auto;
-    float: left;
-    margin: 50px 30px; */
 }
 
 /* Footer Styling */
