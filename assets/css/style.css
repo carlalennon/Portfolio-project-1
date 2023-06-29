@@ -296,3 +296,32 @@ footer h2 {
     opacity: 30%;
     transition: .3s;
 }
+
+/* Style Signup Form*/
+
+#signup-form {
+    background-color: #254a3d;
+    height: 400px;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#signup-form h2 {
+    font-size: 250%;
+    color: white;
+    padding: 30px 10px;
+}
+
+input[type=text] {
+    width: 500px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border: white;
+    background-color: #b7c9c2
+}
