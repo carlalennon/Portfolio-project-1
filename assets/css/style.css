@@ -156,17 +156,6 @@ input {
     transition: .5s;
 }
 
-/* zoom anim sample */
-/*@keyframes hero-zoom {
-    from {
-        transform: scale(1.1);
-    }
-
-    to {
-        transform: scale(1);
-    }
-}
-
 /* fade in animation */
 @keyframes fade-in {
     from {
@@ -257,7 +246,8 @@ footer p {
     color: #fff;
     font-size: small;
     bottom: 0;
-    right: 0;
+    margin-right: 10px;
+    text-align: right;
 }
 
 footer h2 {
