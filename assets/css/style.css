@@ -278,14 +278,14 @@ footer h2 {
 
 /* Bio page styling */
 
-#sm-links-bio li {
+.sm-links-bio li {
     padding: 20px;
     display: inline-block;
     font-size: 250%;
     margin-bottom: 2px;
 }
 
-#sm-links-bio {
+.sm-links-bio {
     text-align: center;
 }
 
