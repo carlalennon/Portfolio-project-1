@@ -271,6 +271,12 @@ footer h2 {
 
 /* Bio page styling */
 
+.gallery-heading {
+    text-align: center;
+    font-size: 300%;
+    padding: 1%;
+}
+
 .sm-links-bio li {
     padding: 20px;
     display: inline-block;
