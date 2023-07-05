@@ -326,46 +326,62 @@ footer h2 {
     transition: .3s;
 }
 
-/* Style Signup Form*/
+@media screen and (max-width:910px) {
+    .gallery-flex-container {
+        display: inline;
+        margin: 0 50px 0;
+        vertical-align: center;
+    }
 
-#signup-form {
-    background-color: #254a3d;
-    height: 70vh;
-    width: auto;
-    margin: auto;
-    text-align: center;
-    vertical-align: middle;
-}
+    .gallery-flex-container img {
+        width: 80vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
-#signup-form h2 {
-    font-size: 250%;
-    color: white;
-    padding: 30px 10px;
-}
+    }
 
-input[type=text] {
-    width: 500px;
-    height: 50px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border-radius: 5px;
-}
 
-input[type=text]:focus {
-    border: white;
-    background-color: #b7c9c2
-}
+    /* Style Signup Form*/
 
-input[type=email] {
-    width: 500px;
-    height: 50px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border-radius: 5px;
-    margin-bottom: 2rem;
-}
+    #signup-form {
+        background-color: #254a3d;
+        height: 70vh;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        vertical-align: middle;
+    }
 
-input[type=email]:focus {
-    border: white;
-    background-color: #b7c9c2
-}
+    #signup-form h2 {
+        font-size: 250%;
+        color: white;
+        padding: 30px 10px;
+    }
+
+    input[type=text] {
+        width: 500px;
+        height: 50px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-radius: 5px;
+    }
+
+    input[type=text]:focus {
+        border: white;
+        background-color: #b7c9c2
+    }
+
+    input[type=email] {
+        width: 500px;
+        height: 50px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-radius: 5px;
+        margin-bottom: 2rem;
+    }
+
+    input[type=email]:focus {
+        border: white;
+        background-color: #b7c9c2
+    }
