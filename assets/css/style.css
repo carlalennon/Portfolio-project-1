@@ -223,6 +223,13 @@ div.biography p {
     margin-top: 30px;
 }
 
+@media screen and (max-width:910px) {
+    .grid-biography {
+        display: inline;
+        margin: 10%;
+    }
+}
+
 
 /* About Event Style*/
 
