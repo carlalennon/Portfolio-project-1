@@ -156,6 +156,20 @@ input {
     transition: .5s;
 }
 
+@media screen and (max-width:910px) {
+    #cover-text {
+        font-size: 150%;
+    }
+
+    #about-event {
+        padding: 5%;
+    }
+
+    #about-event p {
+        margin: 5%;
+    }
+}
+
 /* fade in animation */
 @keyframes fade-in {
     from {
