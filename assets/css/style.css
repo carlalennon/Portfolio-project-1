@@ -261,9 +261,7 @@ div.biography p {
     #about-event p {
         margin: 5%;
     }
-}
 
-@media screen and (max-width: 665px) {
     #meetup-image {
         padding: 0;
         height: 350px;
