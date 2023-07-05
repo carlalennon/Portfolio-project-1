@@ -271,7 +271,11 @@ div.biography p {
     }
 
     .the-event {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+    }
+    .about-event-subheader{
+        font-size: 200%;
+        margin: 1rem 1rem;
     }
 }
 
