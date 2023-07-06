@@ -60,7 +60,7 @@ input {
 }
 
 .active {
-    color: red;
+    border-bottom: 1px solid white;
 }
 
 /*General Centering container setup from w3schools*/
