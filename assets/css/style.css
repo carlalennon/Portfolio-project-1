@@ -409,3 +409,22 @@ input[type=email]:focus {
     border: white;
     background-color: #b7c9c2
 }
+
+/* Error page styling */
+
+.error-section {
+    height: 70vh;
+}
+
+.error-heading {
+    padding: 2%;
+    font-size: 300%;
+}
+
+.error-section p {
+    padding: 2%;
+}
+
+.error-section a {
+    text-decoration: underline;
+}
