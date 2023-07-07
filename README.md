@@ -20,28 +20,30 @@ DAM's website was designed with the user's experience in mind. It is easy to nav
 
  ### Navigation
  The navigation menu is designed to be easily read and used by any user. The header is in the offical DAM teal colour with the organisation's name in large font on the top.
- <-- Image of NAV --> 
+
+ ![An image of the DAM website header](/assets/images/readme-images/readme-header.webp "Website header")
+
  For ease of use and to help orient the user, the active page that they are viewing becomes underlined in the navigation bar.
- <-- mage of underlined nav --> 
+ ![An image of the DAM header with the active page underlined](/assets/images/readme-images/readme-header-nav.webp "Website header with active link") 
 
  ### Footer
  The footer is also in the official teal colour, and contains navigation links to the external DAM platforms. It also contains a copyright notice, a feature I noticed wa common on other similar websites.
- <-- Footer nav links -->
+ ![An image of the navigation links in the footer](/assets/images/readme-images/readme-footer.webp)
 
  ### Home page
  Thehomepage features a cover image of Dublin City, and the bar that the event is hosted in. Is also features a short blurb about the organisation, and a button with a call to action that takes the user to the signup page.
- <-- Signup button -->
+ ![An image of the hero section of the home page](/assets/images/readme-images/readme-hero-section.webp)
 
  ### Biography
  The biography section adds some portraits and information about the founders of DAM. In order to keep the portraits a good size, it shifts to a vertical layout on phones and tablets. 
- <-- Portrait --> 
+![An image of the portrait section of the biography](/assets/images/readme-images/readme-portrait.webp)
 
  There are also links to each of the founders social medias and portfolios underneath the portraits. They are laid out as icons to make them as easy as possible to tap on mobile and smaller screens. 
- <-- Founder nav links -->
+![An image of the external links in the biography section](/assets/images/readme-images/readme-bio-links.webp)
 
  ### Past Poster Gallery 
  A gallery has been made to showcase the posters generously made by fans and attendees of DAM. The bautiful artwork is subject to major compression on the Instagram app, and the group sorely needed a place to showcase the art in a larger format. The gallery provides a space to do this. The gallery includes space to add further posters in the future.
- <-- Gallery screenshot -->
+![An image of the poster gallery](/assets/images/readme-images/readme-gallery.webp)
 
  ### Signup Form
  This website contains a signup form for people interested in signing up for the DAM newletter. The newsletter collector requires a name and an email address. 
