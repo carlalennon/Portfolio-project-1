@@ -57,6 +57,13 @@ The resources I used to learn CSS and understand concepts delivered in the cours
 - Mentor Sheryl, bug extra thanks to her for seeing into the Matrix and identifying what went wrong on bigs that had me stumped, and patiently answering my endless barrage of questions. 
 - Digital Ocean for help with markdown. 
 
+## Future Features
+
+### Gallery Expansion
+I would like to add a feature that the items in the poster gallery could be clicked on, bringing the user to a new page with a full resolution version of the poster. This page would feature information about the art's development, with the name of the creator and a link to their social media. 
+
+### Sitemap
+As the site grows, I would like to add a sitemap link in the footer, bringing the user to a page with all the links laid out. As the site is only 4 pages for now, the sitemap is unessecary. However in the future, with an extended gallery planned, it would be handy for artists looking for their particular art and information to be able to access that from a single plage without having to navigate to the gallery, and then finding their poster on the gallery page. 
+
 ## Errors and Bugs
 - The signup form was built to push to a Google doc, but at the moment only throws an error. I'll have to come back and resolve this later, as I belive the problem may be linked to the fact that the site is hosted locally. An alternative would be to simply embed a Google form, but I wanted to build a form for grading purposes.
-- The image of Dublin city on t
